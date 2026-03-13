@@ -1,12 +1,13 @@
 import java.util.*;
-public class divide_0
+public class intdivide
 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter 2 numbers you want to divide");
-        double a=sc.nextDouble();
-        double b=sc.nextDouble();
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.println(a);
         try
         {
             double d=a/b;

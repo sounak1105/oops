@@ -1,15 +1,15 @@
 import java.util.*;
-public class divide_0
+public class floatdivide
 {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter 2 numbers you want to divide");
-        double a=sc.nextDouble();
-        double b=sc.nextDouble();
+        float a=sc.nextFloat();
+        float b=sc.nextFloat();
         try
         {
-            double d=a/b;
+            float d=a/b;
             System.out.println("answer after division: "+d);
         }
         catch(ArithmeticException e)
